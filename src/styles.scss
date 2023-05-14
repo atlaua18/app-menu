@@ -1,4 +1,4 @@
-$backgroundImage: 'https://images.unsplash.com/photo-1461229813543-5c214846bb3f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80';
+@import 'src/styles/variables';
 
 html,
 body {
@@ -10,8 +10,10 @@ body {
   overflow-x: hidden;
   padding: 0px;
   height: 100vh;
-  background-image: url($backgroundImage);
+  background-image: var(--bg-img);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
 }
