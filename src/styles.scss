@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'src/styles/variables';
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  height: 100vh;
+  background-image: var(--bg-img);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
